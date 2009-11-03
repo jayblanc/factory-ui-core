@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment>
+<servlet>
+    <description></description>
+    <display-name>HomeService</display-name>
+    <servlet-name>HomeService</servlet-name>
+    <servlet-class>org.qualipso.factory.core.ui.gwt.impl.HomeServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeService</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+</web-fragment>
